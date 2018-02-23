@@ -1,0 +1,19 @@
+{
+  "url": "https://try.cobot.me/api/bookings/12345",
+  "booking": {
+    "from": "2017/01/01 12:00:00 +0000",
+    "to": "2017/01/01 14:00:00 +0000",
+    "tax_rate": "20.0",
+    "title": "test booking",
+    "resource": {"name": "Meeting Room", "id": "123"},
+    "price": 10.0,
+    "currency": "EUR",
+    "membership": {
+      "id": "123498y452346",
+      "name": "John Doe"},
+    "url": "https://co-up.cobot.me/api/bookings/12345",
+    "id": "20723075",
+    "can_change": true,
+    "comments": "coffee please"
+  }
+}
