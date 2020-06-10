@@ -40,7 +40,7 @@
       "total_tax_amount": "40.0",
       "accounting_code": "Coffee",
       "membership_id": "12345"
-    },
+    }
   ],
   "total_amount": "240.0",
   "total_amount_without_taxes": "200.0",
