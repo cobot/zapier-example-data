@@ -1,4 +1,4 @@
-{
+[{
   "created_at": "2020/01/01",
   "paid_at": null,
   "charge_at": null,
@@ -53,4 +53,4 @@
   "sent_status": "unsent",
   "paid_status": "unpaid",
   "can_charge": true
-}
+}]
