@@ -1,0 +1,56 @@
+[{
+  "created_at": "2020/01/01",
+  "paid_at": null,
+  "charge_at": null,
+  "due_date": "2020/01/01",
+  "currency": "EUR",
+  "id": "12345",
+  "membership_id": "67890",
+  "address": {
+    "name": "Eva Do",
+    "full_address": "broadway\n12345 Berlin",
+    "company": "Eva Inc.",
+    "country": "ocean"
+  },
+  "space_address": {
+    "name": "eva space",
+    "address": "2 coworking way\n37521 new atlantis",
+    "company": "space inc.",
+    "country": "oceanis"
+  },
+  "invoice_text": "pay now",
+  "tax_name": "VAT",
+  "tax_id_name": "VAT ID",
+  "tax_id": "100-ABC",
+  "invoice_number": 100,
+  "formatted_invoice_number": "2020-X-100",
+  "customer_number": 101,
+  "items": [
+    {
+      "id": "112233",
+      "paid": false,
+      "amount": "1.0",
+      "description": "cup of coffee",
+      "quantity": "200.0",
+      "tax_rate": "20.0",
+      "tax_amount": "0.2",
+      "amount_with_tax": "1.2",
+      "total_amount": "200.0",
+      "total_amount_with_tax": "240.0",
+      "total_tax_amount": "40.0",
+      "accounting_code": "Coffee",
+      "membership_id": "12345"
+    }
+  ],
+  "total_amount": "240.0",
+  "total_amount_without_taxes": "200.0",
+  "payable_amount": "240.0",
+  "total_paid_amount": "0.0",
+  "taxes": [{"name": "VAT", "rate": "20.0", "amount": "40.0"}],
+  "url": "http://try.cobot.me/api/invoices/100",
+  "paid": false,
+  "sent": false,
+  "sent_status": "unsent",
+  "paid_status": "unpaid",
+  "can_charge": true
+}]
